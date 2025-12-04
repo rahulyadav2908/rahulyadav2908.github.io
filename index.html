@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Yadav - Business & Data Analyst</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; color:#333; background:#f5f5f5; }
+        header { background:#0087b5; color:whitesmoke; padding:40px 20px; text-align:center; animation: fadeIn 1.5s ease-in; }
+        header h1 { margin:0; font-size:2.5em; }
+        header p { margin:10px 0 0; font-size:1.2em; }
+        section { padding:40px 20px; max-width:900px; margin:auto; opacity:0; transform: translateY(30px); animation: slideUp 1s forwards; }
+        h2 { color:#0097b5; border-bottom:2px solid #0077b5; display:inline-block; padding-bottom:5px; margin-bottom:20px; }
+        .skills span { display:inline-block; background:#e1e1e1; margin:5px; padding:5px 10px; border-radius:5px; transition: transform 0.3s, background 0.3s; }
+        .skills span:hover { transform: scale(1.1); background:#0097b5; color:white; }
+        .projects { display:grid; grid-template-columns: 1fr 1fr; gap:20px; }
+        .project { border:1px solid #ddd; padding:15px; border-radius:8px; background:white; box-shadow:0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+        .project:hover { transform: translateY(-5px); box-shadow:0 10px 15px rgba(0,0,0,0.2); }
+        .contact a { color:#0077b5; text-decoration:none; margin-right:15px; transition: color 0.3s; }
+        .contact a:hover { color:#005580; }
+        @media(max-width:768px) { .projects { grid-template-columns: 1fr; } }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Stagger section animations */
+        section:nth-of-type(1) { animation-delay: 0.3s; }
+        section:nth-of-type(2) { animation-delay: 0.6s; }
+        section:nth-of-type(3) { animation-delay: 0.9s; }
+        section:nth-of-type(4) { animation-delay: 1.2s; }
+        section:nth-of-type(5) { animation-delay: 1.5s; }
+        section:nth-of-type(6) { animation-delay: 1.8s; }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rahul Yadav</h1>
+    <p>Business & Data Analyst | Transforming Data into Actionable Insights</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>I am an MBA graduate in Business Analysis with a strong interest in data-driven decision-making, business research, and performance improvement. My academic journey strengthened my analytical thinking, leadership abilities, and problem-solving mindset, earning recognition for consistency and dedication.</p>
+    <p>I have worked on academic and internship-level projects involving market research, reporting, and process analysis, where I improved task efficiency by up to 80% through structured problem-solving and clear communication. I bring hands-on skills in Excel, SQL, dashboards, documentation, and requirement analysis, along with teamwork and stakeholder communication.</p>
+    <p>My goal is to build a strong career in Business Analysis, contribute to organizational growth through data-backed insights, and continue expanding my skills in analytics, business intelligence, and digital transformation.</p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>SQL [ MySQL, Relational database concepts ]</span>
+        <span>Python [ pandas, matplotlib, BeautifulSoup ]</span>
+        <span>Excel [ Pivot Table, Pivot Chart, VLOOKUP, HLOOKUP ]</span>
+        <span>Power BI [ DAX, API, Power Query ]</span>
+        <span>Data Manipulation & Transformation</span>
+        <span>Tableau</span>
+        <span>Data Visualization</span>
+        <span>Business Analysis</span>
+        <span>KPI Tracking</span>
+    </div>
+</section>
+
+<section>
+    <h2>Internship Experience</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Data Analyst Intern - Bharat Tech Eco-System Pvt. Ltd.</h3>
+            <p><strong>Duration:</strong> August 2023 – November 2023</p>
+            <p>Worked on Data analysis, Data Extraction, Dashboard creation and Reporting to support business decisions.</p>
+            <p><strong>Achievements:</strong></p>
+            <p>1. Extracted and collected data from external web sources using Python libraries (NumPy, Pandas, BeautifulSoup, Scrapy)</p>
+            <p>2. Collaborated with the backend team to ensure smooth integration of extracted datasets.</p>
+            <p>3. Designed and developed interactive dashboards in Power BI to visualize key business metrics.</p>
+            <p>4. Conducted SWOT analysis to evaluate organizational strengths, weaknesses, opportunities, and threats.</p>
+            <p>5. Presented analytical reports and visual insights to support data-driven decision-making.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Sales Dashboard (Power BI)</h3>
+            <p>Created a dynamic sales dashboard to monitor monthly revenue and regional performance.</p>
+            <p><strong>Outcome:</strong> Reduced reporting time by 40% and identified top-performing products.</p>
+        </div>
+        <div class="project">
+            <h3>Customer Churn Analysis (Python)</h3>
+            <p>Analyzed customer data to predict churn using Python and machine learning models.</p>
+            <p><strong>Outcome:</strong> Improved retention strategies, reducing churn rate by 15%.</p>
+        </div>
+        <div class="project">
+            <h3>Market Trend Report (Excel & Tableau)</h3>
+            <p>Developed interactive reports visualizing market trends and sales opportunities.</p>
+            <p><strong>Outcome:</strong> Enhanced decision-making for product launches.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Education </h2>
+    <p><strong>MBA – Business Analysis - Jaipuria Institute of Management, Ghaziabad</strong></p>
+    <p>• Specialized in Business Analytics, Python, SQL, statistics, and dashboarding.</p> 
+    <p><strong>BACHELOR OF COMMERCE (B.Com.) – Bundelkhand University, Jhansi.</strong></p>                                                                                         
+    <p>• Studied accounting, statistics, economics, business mathematics and fundamental data analysis concepts.</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="contact">
+        <a href="mailto:yadavrohit76450@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/rahul-yadav29/">LinkedIn</a>
+    </div>
+</section>
+
+</body>
+</html>
